@@ -35,6 +35,25 @@ html, body, .grid {
     align-items:center;
 }
 
+.box a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--c-white);
+    text-decoration: none;
+
+    height: 100%;
+    width: 100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box h2 {
+    width: 100%;
+    height: 100%;
+}
+
 .big-title {
     position: absolute;
     top: 50px;
@@ -63,14 +82,4 @@ html, body, .grid {
 
 .box6 {
     background-color: var(--c-purple);
-}
-
-.box a {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--c-white);
-    text-decoration: none;
-
-    height: 100%;
-    width: 100%;
 }
