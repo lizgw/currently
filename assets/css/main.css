@@ -1,4 +1,4 @@
-root {
+:root {
     --c-red: #ff0000;
     --c-orange: #aaaa00;
     --c-yellow: #ff00ff;
@@ -31,6 +31,35 @@ html, body {
     width: 33%;
     float: left;
     height: 100%;
-    border: 2px solid grey;
-    background-color: var(--white);
+    border: 0px solid grey;
+}
+
+.big-title {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.box1 {
+    background-color: var(--c-red);
+}
+
+.box2 {
+    background-color: var(--c-orange);
+}
+
+.box3 {
+    background-color: var(--c-yellow);
+}
+
+.box4 {
+    background-color: var(--c-green);
+}
+
+.box5 {
+    background-color: var(--c-blue);
+}
+
+.box6 {
+    background-color: var(--c-purple);
 }
