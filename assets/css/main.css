@@ -1,34 +1,29 @@
 :root {
-    --c-red: #ff0000;
-    --c-orange: #aaaa00;
-    --c-yellow: #ff00ff;
-    --c-green: #00ff00;
-    --c-blue: #ffffff;
-    --c-purple: #ffffff;
-    --c-pink: #ffffff;
+    --c-red: #da4453;
+    --c-orange: #fc6e51;
+    --c-yellow: #ffce54;
+    --c-green: #8cc152;
+    --c-blue: #3bafda;
+    --c-purple: #967adc;
+    --c-pink: #ec87c0;
     --c-black: #333333;
     --c-white: #efefef;
 }
 
-html, body {
+html, body, .grid {
+    width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
 }
 
-.grid {
-    width: 100%;
-    height: 100%;
-}
-
 .row {
     width: 100%;
     height: 50%;
-    display: inline-block;
 }
 
 .box {
-    width: 33%;
+    width: 33.33333333%;
     float: left;
     height: 100%;
     border: 0px solid grey;
