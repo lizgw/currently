@@ -67,8 +67,8 @@ html, body, .grid {
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
-    width: 5rem;
-    height: 5rem;
+    width: 500px;
+    height: 100px;
 
     color: var(--c-white);
     font-size: 5rem;
