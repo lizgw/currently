@@ -15,6 +15,8 @@ html, body, .grid {
     height: 100%;
     margin: 0px;
     padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
@@ -64,8 +66,12 @@ html, body, .grid {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+
+    color: var(--c-white);
+    font-size: 5rem;
 }
 
 .box1 {
