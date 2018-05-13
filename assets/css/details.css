@@ -13,10 +13,11 @@ h1 {
 
 .box2
 {
-    width: 50%;
+    width: 48%;
     float: left;
     height: auto;
     background: none;
+    padding: 5px;
 }
 
 .centerbox
@@ -32,7 +33,7 @@ h1 {
 
 .img
 {
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -58,4 +59,26 @@ h1 {
 
 .c6 {
     background: var(--c-purple);
+}
+
+@media (max-width: 600px)
+{
+    .box2 {
+        width: 100%;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .boxrow {
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+
+    .img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
 }
