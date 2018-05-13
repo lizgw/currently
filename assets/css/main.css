@@ -62,10 +62,7 @@ html, body, .grid {
     right: 0;
     top: 0; 
     bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     text-align: center;
     width: 500px;
     height: 100px;
@@ -96,4 +93,19 @@ html, body, .grid {
 
 .box6 {
     background-color: var(--c-purple);
+}
+
+@media (max-width: 600px)
+{
+    .big-title {
+        position: static;
+        font-size: 2.5rem;
+        width: auto;
+        height: auto;
+        background: black;
+    }
+
+    .box {
+        width: 100%;
+    }
 }
