@@ -19,14 +19,20 @@ h1 {
     background: none;
 }
 
+.centerbox
+{
+    text-align: center;
+}
+
 .boxrow
 {
     height: auto;
+    padding: 10px;
 }
 
 .img
 {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
 }
 
