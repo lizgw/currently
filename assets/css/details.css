@@ -62,7 +62,7 @@ h1 {
     background: var(--c-purple);
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2)
 {
     .box2 {
         width: 100%;
