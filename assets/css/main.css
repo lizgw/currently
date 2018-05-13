@@ -95,7 +95,7 @@ html, body, .grid {
     background-color: var(--c-purple);
 }
 
-@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2)
+@media screen and (max-width: 600px)
 {
     .big-title {
         position: static;
