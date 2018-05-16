@@ -72,6 +72,7 @@ html, body, .grid {
     color: var(--c-white);
     font-size: 5rem;
     font-family: 'Patua One', cursive;
+    text-shadow: 0px 0px 50px var(--c-white);
 }
 
 .box1 {
