@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway');
+
 :root {
     --c-red: #da4453;
     --c-orange: #fc6e51;
@@ -16,7 +18,7 @@ html, body, .grid {
     margin: 0px;
     padding: 0px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .row {
@@ -69,6 +71,7 @@ html, body, .grid {
 
     color: var(--c-white);
     font-size: 5rem;
+    font-family: 'Patua One', cursive;
 }
 
 .box1 {
